@@ -70,7 +70,7 @@ public class Main {
 
         //11
         List<Student> allGpa = students.stream().filter(s -> s.getGpa() > 87.5).toList();
-        System.out.println(allGpa);
+        System.out.println(allGpa.size());
     }
 
 }
